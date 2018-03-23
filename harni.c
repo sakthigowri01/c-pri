@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<conio.h>
+int main(void) {
+	int n,count=1;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+		n=n/20;
+		if(n!=0)
+		{
+			count=count+1;
+		}
+	}
+	printf("%d",count);
+	return 0;
+}
